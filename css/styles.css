@@ -1,25 +1,63 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
     font-family: 'JetBrainsMono Nerd Font Mono', monospace;
 }
 
-/* styles.css */
+.title {
+    margin: 0.25rem;
+}
+
 .center-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
     text-align: center;
+    gap: 0.5rem;
 }
 
-h1 {
-    margin-bottom: 5px;
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
-p {
-    margin: 5px 0;
+.links-back-to-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.25rem;
 }
 
+.links-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+}
 
+.link-section {
+    display: flex;
+    flex-direction: column;
+}
 
+.links-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.25rem;
+}
