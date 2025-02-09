@@ -7,6 +7,7 @@ Welcome to my portfolio website! This project is built using HTML, CSS, and Java
 - [ ] Populate the pages with content
 - [ ] Style the page content using CSS
 - [ ] Dark Mode & Light Mode
+- [ ] Easter Egg Feature
 - [ ] Node.js Integration
-- [ ] Implement better CI/CD workflows for automated linting and 
+- [ ] Implement better CI/CD workflows for automated linting
 - [ ] Blog Feature
