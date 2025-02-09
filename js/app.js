@@ -1,1 +1,1 @@
-console.log("to do")
+console.log("some functionality will be added one day to the website")
