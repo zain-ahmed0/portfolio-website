@@ -5,7 +5,6 @@
 	"name": "portfolio-website",
 	"assets": {
 		"directory": "./dist",
-		"binding": "ASSETS",
 		"not_found_handling": "404-page"
 	},
 	"observability": {
