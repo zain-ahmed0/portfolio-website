@@ -30,6 +30,11 @@
     "url": "https://learn.microsoft.com/en-gb/users/zain-ahmed"
   },
   {
+    "id": "edX",
+    "name": "edX",
+    "url": "https://profile.edx.org/u/zain-ahmed0"
+  },
+  {
     "id": "Codewars",
     "name": "Codewars",
     "url": "https://www.codewars.com/users/zain-ahmed"
@@ -58,5 +63,25 @@
     "id": "LeetCode",
     "name": "LeetCode",
     "url": "https://leetcode.com/u/zain-ahmed0"
+  },
+  {
+    "id": "Scratch",
+    "name": "Scratch",
+    "url": "https://scratch.mit.edu/users/zain-ahmed0/"
+  },
+  {
+    "id": "Meetup",
+    "name": "Meetup",
+    "url": "https://www.meetup.com/members/475735972/"
+  },
+  {
+    "id": "Luma",
+    "name": "Luma",
+    "url": "https://luma.com/user/usr-98NpzqYJrKxuUzD"
+  },
+  {
+    "id": "Credly",
+    "name": "Credly",
+    "url": "https://www.credly.com/users/zain-ahmed0/edit/badges/credly"
   }
 ]
