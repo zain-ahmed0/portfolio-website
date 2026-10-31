@@ -20,7 +20,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && build",
     "preview": "astro preview",
     "astro": "astro",
     "generate-types": "wrangler types",
@@ -30,6 +30,7 @@
     "typecheck": "astro check"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.12",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "7.4.4",
     "tailwindcss": "^4.3.3",
