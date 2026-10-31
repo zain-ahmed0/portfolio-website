@@ -1,0 +1,37 @@
+[
+  {
+    "id": "WiFiQRCodeGenerator",
+    "name": "WiFiQRCodeGenerator",
+    "url": "https://github.com/zain-ahmed0/WiFiQRCodeGenerator"
+  },
+  {
+    "id": "TakeawayFinder",
+    "name": "TakeawayFinder",
+    "url": "https://github.com/zain-ahmed0/TakeawayFinder"
+  },
+  {
+    "id": "PortfolioWebsite",
+    "name": "PortfolioWebsite",
+    "url": "https://github.com/zain-ahmed0/portfolio-website"
+  },
+  {
+    "id": "MinecraftPlugin",
+    "name": "MinecraftPlugin",
+    "url": "https://example.com"
+  },
+  {
+    "id": "CVBuilder",
+    "name": "CVBuilder",
+    "url": "https://example.com"
+  },
+  {
+    "id": "Scanly",
+    "name": "Scanly",
+    "url": "https://github.com/melindamorkeh/cv-scanner"
+  },
+  {
+    "id": "Flatmade",
+    "name": "Flatmade",
+    "url": "https://github.com/ifti5465/Encode-AI-Hackathon"
+  }
+]

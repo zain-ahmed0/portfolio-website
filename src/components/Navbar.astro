@@ -1,0 +1,19 @@
+---
+const { page } = Astro.props;
+---
+
+<nav class="flex items-center justify-between w-full mb-5">
+  <span class="text-[#61afef]">{page === "/" ? "zain ahmed" : <a href="/">home</a>}</span>
+  <div class="flex gap-4 text-[#c678dd]">
+    <a href="/projects">projects</a>
+    <a href="/socials">socials</a>
+  </div>
+</nav>
+
+<!-- <section class="flex justify-center">
+  <p>bio: a degree apprentice</p>
+  <p>linkedin here</p>
+  <p>github here</p>
+  <p>email?</p>
+  
+</section> -->

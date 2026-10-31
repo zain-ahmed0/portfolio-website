@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import Navbar from '../components/Navbar.astro'
+
+const page = Astro.url.pathname
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="description" content="a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com" />
+    <title>Astro Basics</title>
+
+    <meta name="author" content="Zain Ahmed" />
+
+    <meta property="og:title" content="Zain Ahmed" />
+    <meta property="og:description" content="a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zain-ahmed.dev" />
+    <!-- fix later -->
+    <meta property="og:image" content="/favicon.ico" /> 
+
+    <!-- add other social media tags whatsapp, twitter, discord, slack, facebook, instagram, imessage, linkedin once i have a proper image to use -->
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <main class="flex-1 w-full max-w-4xl px-4 mx-auto mt-20">
+      <Navbar page={page} />
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

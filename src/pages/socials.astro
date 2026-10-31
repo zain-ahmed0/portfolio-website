@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const socials = await getCollection("socials");
+---
+
+<Layout>
+  <ul>
+    {
+      socials.map(({ data }) => (
+        <li>
+          <a href={data.url} target="_blank" rel="noopener noreferrer">{data.name}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
