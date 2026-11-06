@@ -8,7 +8,8 @@ const projects = defineCollection({
   loader: file('./src/data/projects.json'),
   schema: z.object({
     name: z.string(),
-    url: z.url(),
+    description: z.string(),
+    url: z.url().optional(),
   }),
 });
 

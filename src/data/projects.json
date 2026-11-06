@@ -2,36 +2,41 @@
   {
     "id": "WiFiQRCodeGenerator",
     "name": "WiFiQRCodeGenerator",
+    "description": "CLI/TUI tool that generates a QR code containing WiFi credentials for easy network sharing",
     "url": "https://github.com/zain-ahmed0/WiFiQRCodeGenerator"
   },
   {
     "id": "TakeawayFinder",
-    "name": "TakeawayFinder",
+    "name": "Takeaway Finder",
+    "description": "Web app that helps users find nearby takeaway restaurants using Google Maps and Just Eat Takeaway's API",
     "url": "https://github.com/zain-ahmed0/TakeawayFinder"
   },
   {
     "id": "PortfolioWebsite",
-    "name": "PortfolioWebsite",
+    "name": "Portfolio Website",
+    "description": "Personal website showcasing my projects and socials",
     "url": "https://github.com/zain-ahmed0/portfolio-website"
   },
   {
     "id": "MinecraftPlugin",
-    "name": "MinecraftPlugin",
-    "url": "https://example.com"
+    "name": "Minecraft Plugin",
+    "description": "Minecraft Plugin that sends a custom message when a specific player joins the server"
   },
   {
     "id": "CVBuilder",
-    "name": "CVBuilder",
-    "url": "https://example.com"
+    "name": "CV Builder",
+    "description": "LaTeX-based CV builder that automatically generates a PDF on update"
   },
   {
     "id": "Scanly",
     "name": "Scanly",
+    "description": "CV scanning app (WIP)",
     "url": "https://github.com/melindamorkeh/cv-scanner"
   },
   {
     "id": "Flatmade",
     "name": "Flatmade",
+    "description": "Hackathon proejct designed as an all-in-one solution for managing shared living spaces",
     "url": "https://github.com/ifti5465/Encode-AI-Hackathon"
   }
 ]
