@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Head from '../components/Head.astro';
 import Footer from '../components/Footer.astro';
 import Navbar from '../components/Navbar.astro';
 
@@ -9,34 +10,7 @@ const page = Astro.url.pathname;
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="canonical" href="https://zain-ahmed.dev" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta
-      name="description"
-      content="a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com"
-    />
-    <title>zain ahmed</title>
-
-    <meta name="author" content="Zain Ahmed" />
-
-    <meta property="og:title" content="Zain Ahmed" />
-    <meta property="og:image" content="https://zain-ahmed.dev/og-image.png" />
-
-    <!-- add other social media tags whatsapp, twitter, discord, slack, facebook, instagram, imessage, linkedin once i have a proper image to use -->
-
-    <meta
-      property="og:description"
-      content="a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://zain-ahmed.dev" />
-    <meta name="theme-color" content="#61afef" />
+    <Head />
     <script>
       console.log(
         'fun fact: the font and page colours that are used on my website is what I use for coding :)',
