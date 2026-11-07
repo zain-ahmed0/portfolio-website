@@ -1,6 +1,6 @@
 # Zain Ahmed
 
-Personal portfolio website for Zain Ahmed, a software engineer degree apprentice at Just Eat Takeaway.com
+Personal portfolio website for Zain Ahmed, a Software Engineer Degree Apprentice at Just Eat Takeaway.com
 
 ## Pages
 
