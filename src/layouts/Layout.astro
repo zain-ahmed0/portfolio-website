@@ -11,7 +11,7 @@ const page = Astro.url.pathname;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="canonical" href={new URL(page, Astro.site).href} />
+    <link rel="canonical" href="https://zain-ahmed.dev" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -26,16 +26,16 @@ const page = Astro.url.pathname;
     <meta name="author" content="Zain Ahmed" />
 
     <meta property="og:title" content="Zain Ahmed" />
+    <meta property="og:image" content="https://zain-ahmed.dev/og-image.png" />
+
+    <!-- add other social media tags whatsapp, twitter, discord, slack, facebook, instagram, imessage, linkedin once i have a proper image to use -->
+
     <meta
       property="og:description"
       content="a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://zain-ahmed.dev" />
-    <!-- fix later -->
-    <meta property="og:image" content="/favicon.ico" />
-
-    <!-- add other social media tags whatsapp, twitter, discord, slack, facebook, instagram, imessage, linkedin once i have a proper image to use -->
     <script>
       console.log(
         'fun fact: the font and page colours that are used on my website is what I use for coding :)',
