@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://zain-ahmed.dev',
   trailingSlash: 'never',
+  compressHTML: true,
   vite: {
     plugins: [tailwindcss()],
   },
