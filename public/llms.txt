@@ -4,9 +4,9 @@ Personal portfolio website for Zain Ahmed, a Software Engineer Degree Apprentice
 
 ## Pages
 
-- [Home](https://zain-ahmed.dev): About me and contact links
-- [Projects](https://zain-ahmed.dev/projects): My projects
-- [Socials](https://zain-ahmed.dev/socials): My social links
+- [Home](https://zain-ahmed.dev)
+- [Projects](https://zain-ahmed.dev/projects)
+- [Socials](https://zain-ahmed.dev/socials)
 
 ## Socials
 
