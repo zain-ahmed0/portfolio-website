@@ -3,14 +3,8 @@ const { page } = Astro.props;
 ---
 
 <nav class="flex items-center justify-between w-full mb-5">
-  <span class="text-blue">
-    {page === '/' ? (
-      'zain ahmed'
-    ) : (
-      <a href="/" class="underline">
-        home
-      </a>
-    )}
+  <span class="text-blue"> 
+    {page === '/' ? ('zain ahmed') : (<a href="/" class="underline">home</a>)}
   </span>
   <div class="flex gap-4 text-purple">
     <a href="/projects" aria-current="page" class="underline">

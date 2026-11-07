@@ -9,18 +9,7 @@ const projects = await getCollection('projects');
   <ul>
     {projects.map(({ data }) => (
       <li class="mb-5">
-        {data.url ? (
-          <a
-            href={data.url}
-            class="underline text-yellow"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {data.name}
-          </a>
-        ) : (
-          <span class="text-yellow">{data.name}</span>
-        )}
+        {data.url ? (<a href={data.url} class="underline text-yellow" target="_blank" rel="noopener noreferrer">{data.name}</a>) : (<span class="text-yellow">{data.name}</span>)}
         <p>{data.description}</p>
       </li>
     ))}
