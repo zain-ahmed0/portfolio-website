@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Zain Ahmed",
+      "url": "https://zain-ahmed.dev",
+      "email": "zain.auk05@gmail.com",
+      "jobTitle": "Software Engineer Degree Apprentice",
+      "image": "https://zain-ahmed.dev/og-image.png",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Just Eat Takeaway.com",
+        "url": "https://www.justeattakeaway.com"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/zain-ahmed0/",
+        "https://github.com/zain-ahmed0"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Zain Ahmed",
+      "url": "https://zain-ahmed.dev",
+      "description": "a software engineer degree apprentice currently in my 3rd year working at just eat takeaway.com"
+    }
+  ]
+}
