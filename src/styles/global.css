@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-grey: #abb2bf;
+  --color-dark-grey: #282c34;
+  --color-red: #e06c75;
+  --color-yellow: #e5c07b;
+  --color-blue: #61afef;
+  --color-purple: #c678dd;
+}
+
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
@@ -13,6 +22,7 @@ html, body {
   width: 100%;
   font-size: 18px;
   font-family: 'JetBrains Mono', monospace;
-  background-color: #282c34;
-  color: #abb2bf
+  background-color: var(--color-dark-grey);
+  color: var(--color-grey);
 }
+

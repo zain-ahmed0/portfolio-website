@@ -10,7 +10,7 @@ const socials = await getCollection("socials");
     {
       socials.map(({ data }) => (
         <li class="mb-1">
-          <a href={data.url} class="text-[#e5c07b] underline" target="_blank" rel="noopener noreferrer">{data.name}</a>
+          <a href={data.url} class="underline text-yellow" target="_blank" rel="noopener noreferrer">{data.name}</a>
         </li>
       ))
     }

@@ -13,14 +13,14 @@ const projects = await getCollection("projects");
           {data.url ? (
             <a
               href={data.url}
-              class="text-[#e5c07b] underline"
+              class="underline text-yellow"
               target="_blank"
               rel="noopener noreferrer"
             >
               {data.name}
             </a>
           ) : (
-            <span class="text-[#e5c07b]">{data.name}</span>
+            <span class="text-yellow">{data.name}</span>
           )}
           <p>{data.description}</p>
         </li>
